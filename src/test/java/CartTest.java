@@ -12,7 +12,7 @@ public class CartTest {
     public void checkCartTotals(){
 
         Cart cart = createSampleCart();
-        assertEquals(cart.getCartEntries().size(), 4);
+        assertEquals(cart.getCartEntries().size(), 3);
 
         BigDecimal totalPriceWithoutTax = BigDecimal.ZERO;
         BigDecimal totalTax = BigDecimal.ZERO;
