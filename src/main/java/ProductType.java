@@ -28,8 +28,4 @@ public class ProductType {
     public Tax getTax() {
         return tax;
     }
-
-    public void setTax(Tax tax) {
-        this.tax = tax;
-    }
 }
